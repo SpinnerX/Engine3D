@@ -1,0 +1,216 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: -m64
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/3.29.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-6dpbra"
+      binary: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-6dpbra"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "-m64"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-m64"
+      CMAKE_MODULE_PATH: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/generators"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-6dpbra'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_72f86/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_72f86.dir\\build.make CMakeFiles/cmTC_72f86.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-6dpbra'
+        Building CXX object CMakeFiles/cmTC_72f86.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -m64  -O0 -g -Xclang -gcodeview -std=c++23 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_72f86.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_72f86.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_72f86.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_72f86.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_72f86.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -m64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -m64 -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_72f86.dir\\objects1.rsp -o cmTC_72f86.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_72f86.lib -Xlinker /pdb:C:\\Users\\heraa\\OneDrive\\Desktop\\official-engine3d\\engine3d\\test_package\\build\\clang-17-x86_64-23-release\\CMakeFiles\\CMakeScratch\\TryCompile-6dpbra\\cmTC_72f86.pdb -Xlinker /version:0.0 
+        clang version 18.1.6
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_72f86.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_72f86.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_72f86.lib "/pdb:C:\\\\Users\\\\heraa\\\\OneDrive\\\\Desktop\\\\official-engine3d\\\\engine3d\\\\test_package\\\\build\\\\clang-17-x86_64-23-release\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-6dpbra\\\\cmTC_72f86.pdb" /version:0.0
+        mingw32-make[1]: Leaving directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-6dpbra'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "--version"
+      LLD 18.1.6
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-m9kjb0"
+      binary: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-m9kjb0"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "-m64"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: "-m64"
+      CMAKE_MODULE_PATH: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/generators"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-m9kjb0'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8acbe/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8acbe.dir\\build.make CMakeFiles/cmTC_8acbe.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-m9kjb0'
+        Building CXX object CMakeFiles/cmTC_8acbe.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -m64  -O0 -g -Xclang -gcodeview -std=c++23 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_8acbe.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_8acbe.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_8acbe.dir\\feature_tests.cxx.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\official-engine3d\\engine3d\\test_package\\build\\clang-17-x86_64-23-release\\CMakeFiles\\CMakeScratch\\TryCompile-m9kjb0\\feature_tests.cxx
+        Linking CXX executable cmTC_8acbe.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8acbe.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -m64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -m64  -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_8acbe.dir\\objects1.rsp -o cmTC_8acbe.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8acbe.lib -Xlinker /pdb:C:\\Users\\heraa\\OneDrive\\Desktop\\official-engine3d\\engine3d\\test_package\\build\\clang-17-x86_64-23-release\\CMakeFiles\\CMakeScratch\\TryCompile-m9kjb0\\cmTC_8acbe.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_8acbe.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-m9kjb0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-9dr12s"
+      binary: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-9dr12s"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "-m64"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: "-m64"
+      CMAKE_MODULE_PATH: "C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/generators"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-9dr12s'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_15a49/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_15a49.dir\\build.make CMakeFiles/cmTC_15a49.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-9dr12s'
+        Building CXX object CMakeFiles/cmTC_15a49.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -m64  -O0 -g -Xclang -gcodeview -std=c++23 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_15a49.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_15a49.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_15a49.dir\\feature_tests.cxx.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\official-engine3d\\engine3d\\test_package\\build\\clang-17-x86_64-23-release\\CMakeFiles\\CMakeScratch\\TryCompile-9dr12s\\feature_tests.cxx
+        Linking CXX executable cmTC_15a49.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_15a49.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -m64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -m64  -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_15a49.dir\\objects1.rsp -o cmTC_15a49.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_15a49.lib -Xlinker /pdb:C:\\Users\\heraa\\OneDrive\\Desktop\\official-engine3d\\engine3d\\test_package\\build\\clang-17-x86_64-23-release\\CMakeFiles\\CMakeScratch\\TryCompile-9dr12s\\cmTC_15a49.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_15a49.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/heraa/OneDrive/Desktop/official-engine3d/engine3d/test_package/build/clang-17-x86_64-23-release/CMakeFiles/CMakeScratch/TryCompile-9dr12s'
+        
+      exitCode: 0
+...

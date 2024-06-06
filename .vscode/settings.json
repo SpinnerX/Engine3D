@@ -1,0 +1,13 @@
+{
+    "cmake.cmakePath": "C:/msys64/ucrt64/bin/cmake.exe",
+    "cmake.configureSettings": {
+      "CMAKE_AR": "C:\\msys64\\mingw64\\bin\\ar.exe",
+      "CMAKE_MAKE_PROGRAM": "C:\\msys64\\mingw64\\bin\\mingw32-make.exe",
+      "CMAKE_PREFIX_PATH": "C:\\msys64\\mingw64"
+    },
+    "cmake.environment": {
+      "PATH": "C:\\msys64\\ming64\\bin;C:\\msys64\\usr\\bin;${env:PATH}"
+    },
+    "cmake.generator": "MinGW Makefiles"
+  }
+  

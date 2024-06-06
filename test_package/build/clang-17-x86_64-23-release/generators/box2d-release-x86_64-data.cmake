@@ -1,0 +1,49 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(box2d_COMPONENT_NAMES "")
+if(DEFINED box2d_FIND_DEPENDENCY_NAMES)
+  list(APPEND box2d_FIND_DEPENDENCY_NAMES )
+  list(REMOVE_DUPLICATES box2d_FIND_DEPENDENCY_NAMES)
+else()
+  set(box2d_FIND_DEPENDENCY_NAMES )
+endif()
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(box2d_PACKAGE_FOLDER_RELEASE "C:/Users/heraa/.conan2/p/b/box2deb1ab9a88419a/p")
+set(box2d_BUILD_MODULES_PATHS_RELEASE )
+
+
+set(box2d_INCLUDE_DIRS_RELEASE "${box2d_PACKAGE_FOLDER_RELEASE}/include")
+set(box2d_RES_DIRS_RELEASE )
+set(box2d_DEFINITIONS_RELEASE )
+set(box2d_SHARED_LINK_FLAGS_RELEASE )
+set(box2d_EXE_LINK_FLAGS_RELEASE )
+set(box2d_OBJECTS_RELEASE )
+set(box2d_COMPILE_DEFINITIONS_RELEASE )
+set(box2d_COMPILE_OPTIONS_C_RELEASE )
+set(box2d_COMPILE_OPTIONS_CXX_RELEASE )
+set(box2d_LIB_DIRS_RELEASE "${box2d_PACKAGE_FOLDER_RELEASE}/lib")
+set(box2d_BIN_DIRS_RELEASE )
+set(box2d_LIBRARY_TYPE_RELEASE STATIC)
+set(box2d_IS_HOST_WINDOWS_RELEASE 1)
+set(box2d_LIBS_RELEASE box2d)
+set(box2d_SYSTEM_LIBS_RELEASE )
+set(box2d_FRAMEWORK_DIRS_RELEASE )
+set(box2d_FRAMEWORKS_RELEASE )
+set(box2d_BUILD_DIRS_RELEASE )
+set(box2d_NO_SONAME_MODE_RELEASE FALSE)
+
+
+# COMPOUND VARIABLES
+set(box2d_COMPILE_OPTIONS_RELEASE
+    "$<$<COMPILE_LANGUAGE:CXX>:${box2d_COMPILE_OPTIONS_CXX_RELEASE}>"
+    "$<$<COMPILE_LANGUAGE:C>:${box2d_COMPILE_OPTIONS_C_RELEASE}>")
+set(box2d_LINKER_FLAGS_RELEASE
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${box2d_SHARED_LINK_FLAGS_RELEASE}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${box2d_SHARED_LINK_FLAGS_RELEASE}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${box2d_EXE_LINK_FLAGS_RELEASE}>")
+
+
+set(box2d_COMPONENTS_RELEASE )
